@@ -1,0 +1,85 @@
+body{
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+
+}
+
+#board {
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+
+
+}
+
+.column {
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+
+	height: 480px;
+	width: 80px;
+
+	background-color: SteelBlue;
+
+	margin: 2px 2px 2px 2px;
+
+}
+
+.column:hover{
+
+	background-color: SkyBlue;
+
+}
+
+.slot {
+
+	display: flex;
+
+	height: 70px;
+	width: 70px;
+
+	border-radius: 50%;
+	margin: 5px 5px 5px 5px;
+
+	background-color: LightYellow;
+
+}
+
+.empty {
+
+	display: flex;
+
+	height: 70px;
+	width: 70px;
+
+	border-radius: 50%;
+	margin: 5px 5px 5px 5px;
+
+	background-color: LightYellow;
+
+}
+
+.yellow {
+
+	background-color: Gold;
+
+}
+
+.red {
+
+	background-color: Firebrick;
+
+}
+
+#player {
+
+	display: flex;
+
+
+}
